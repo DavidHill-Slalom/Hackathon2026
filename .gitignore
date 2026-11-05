@@ -1,0 +1,17 @@
+# Salesforce / DX
+.sfdx/
+.sf/
+*.log
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Local org metadata
+author.json
