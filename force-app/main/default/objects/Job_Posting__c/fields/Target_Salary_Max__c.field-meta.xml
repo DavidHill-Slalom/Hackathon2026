@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Salary_Max__c</fullName>
+    <label>Target Salary Maximum</label>
+    <type>Currency</type>
+    <precision>18</precision>
+    <scale>2</scale>
+    <description>Confidential upper bound of the target salary range.</description>
+</CustomField>

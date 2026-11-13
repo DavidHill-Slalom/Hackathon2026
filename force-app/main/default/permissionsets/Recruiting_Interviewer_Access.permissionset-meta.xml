@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Read records for assigned interviews and submit personal interview feedback.</description>
+    <label>Recruiting Interviewer Access</label>
+    <objectPermissions><allowCreate>false</allowCreate><allowDelete>false</allowDelete><allowEdit>false</allowEdit><allowRead>true</allowRead><modifyAllRecords>false</modifyAllRecords><viewAllRecords>false</viewAllRecords><object>Job_Posting__c</object></objectPermissions>
+    <objectPermissions><allowCreate>false</allowCreate><allowDelete>false</allowDelete><allowEdit>false</allowEdit><allowRead>true</allowRead><modifyAllRecords>false</modifyAllRecords><viewAllRecords>false</viewAllRecords><object>Candidate__c</object></objectPermissions>
+    <objectPermissions><allowCreate>false</allowCreate><allowDelete>false</allowDelete><allowEdit>false</allowEdit><allowRead>true</allowRead><modifyAllRecords>false</modifyAllRecords><viewAllRecords>false</viewAllRecords><object>Job_Application__c</object></objectPermissions>
+    <objectPermissions><allowCreate>false</allowCreate><allowDelete>false</allowDelete><allowEdit>false</allowEdit><allowRead>true</allowRead><modifyAllRecords>false</modifyAllRecords><viewAllRecords>false</viewAllRecords><object>Interview__c</object></objectPermissions>
+    <objectPermissions><allowCreate>false</allowCreate><allowDelete>false</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>false</modifyAllRecords><viewAllRecords>false</viewAllRecords><object>Interviewer_Assignment__c</object></objectPermissions>
+    <fieldPermissions><editable>false</editable><field>Job_Posting__c.Public_Description__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Job_Posting__c.Location__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Job_Posting__c.Posting_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Job_Posting__c.Closing_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Candidate__c.Phone__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Job_Application__c.Submitted_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Interview__c.End_Date_Time__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Interview__c.Location__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Interviewer_Assignment__c.Interviewer__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Interviewer_Assignment__c.Feedback__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Interviewer_Assignment__c.Recommendation__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Interviewer_Assignment__c.Feedback_Submitted_Date__c</field><readable>true</readable></fieldPermissions>
+</PermissionSet>

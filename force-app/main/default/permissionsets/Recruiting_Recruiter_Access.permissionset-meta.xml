@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create and manage Orion recruiting records.</description>
+    <label>Recruiting Recruiter Access</label>
+    <objectPermissions><allowCreate>true</allowCreate><allowDelete>false</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>false</modifyAllRecords><viewAllRecords>false</viewAllRecords><object>Job_Posting__c</object></objectPermissions>
+    <objectPermissions><allowCreate>true</allowCreate><allowDelete>false</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>false</modifyAllRecords><viewAllRecords>false</viewAllRecords><object>Candidate__c</object></objectPermissions>
+    <objectPermissions><allowCreate>true</allowCreate><allowDelete>false</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>false</modifyAllRecords><viewAllRecords>false</viewAllRecords><object>Job_Application__c</object></objectPermissions>
+    <objectPermissions><allowCreate>true</allowCreate><allowDelete>false</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>false</modifyAllRecords><viewAllRecords>false</viewAllRecords><object>Interview__c</object></objectPermissions>
+    <objectPermissions><allowCreate>true</allowCreate><allowDelete>false</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>false</modifyAllRecords><viewAllRecords>false</viewAllRecords><object>Interviewer_Assignment__c</object></objectPermissions>
+    <fieldPermissions><editable>true</editable><field>Job_Posting__c.Public_Description__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Job_Posting__c.Location__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Job_Posting__c.Posting_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Job_Posting__c.Closing_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Job_Posting__c.Target_Salary_Min__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Job_Posting__c.Target_Salary_Max__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Job_Posting__c.Recruiter__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Job_Posting__c.Hiring_Manager__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Candidate__c.Phone__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Job_Application__c.Submitted_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Interview__c.End_Date_Time__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Interview__c.Location__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Interviewer_Assignment__c.Interviewer__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Interviewer_Assignment__c.Feedback__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Interviewer_Assignment__c.Recommendation__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Interviewer_Assignment__c.Feedback_Submitted_Date__c</field><readable>true</readable></fieldPermissions>
+</PermissionSet>
