@@ -17,6 +17,7 @@
 | 3. Sharing service and triggers | Bulkified Apex share reconciliation and four triggers, including interview/application reassignment handling | Salesforce dry-run, deploy ID `0Afbm00000o4oJCCAY` | Passed; Apex compiled |
 | 4. Security and behavior tests | Eight rigorous Apex scenarios for record access in user mode, recruiter and hiring-manager salary FLS, feedback persistence, reassignment/revocation, application delete/undelete, and 200-record bulk behavior | Specified-test dry-run, deploy ID `0Afbm00000o5DHaCAM` | Passed; 8 tests executed, no test failures, component failures, or coverage warnings |
 | 5. Feature manifest | `manifest/orion-recruiting-backend-package.xml` | Latest manifest deployment, deploy ID `0Afbm00000o5YHBCA2` | Succeeded; 55 components deployed, 8 tests completed, no component or test failures |
+| 6. Pull request | Feature branch pushed and PR opened against `main` | Commit `2c897b5`; [PR #1](https://github.com/DavidHill-Slalom/Hackathon2026/pull/1) | Open |
 
 ## Current Source
 
@@ -31,6 +32,7 @@
 ## Pending Checks and Held Actions
 
 - The final manifest deployment changed only the `hackathon2026` Developer Edition org. Production remains a later release target and was not touched.
+- PR #1 is open from `feature/orion-recruiting-backend` to `main`; no merge has occurred.
 - Permission sets are not assigned to users. Confirm the recruiter and hiring-manager roster before assignment; interviewers receive their set only when authorized.
 - The `Portal` site is Under Construction. Runtime guest access to Published postings and denial of confidential fields remain to be verified in the experience site.
 - Validate Salesforce Files visibility for application-linked resumes/cover letters with a restricted user; no public file access is configured.

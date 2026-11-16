@@ -23,4 +23,4 @@ No actionable code findings were confirmed after reconciling all four lenses aga
 
 ## PR Decision
 
- The user approved the user-mode role-access and manager salary FLS test additions; both are implemented and pass in deployment `0Afbm00000o5YHBCA2`. The user requested a PR; commit, push, and PR creation remain pending.
+ The user approved the user-mode role-access and manager salary FLS test additions; both are implemented and pass in deployment `0Afbm00000o5YHBCA2`. PR [#1](https://github.com/DavidHill-Slalom/Hackathon2026/pull/1) is open from `feature/orion-recruiting-backend` to `main`; no merge has occurred.
