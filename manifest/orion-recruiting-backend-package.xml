@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Candidate__c</members>
+        <members>Interview__c</members>
+        <members>Interviewer_Assignment__c</members>
+        <members>Job_Application__c</members>
+        <members>Job_Posting__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>RecruitingSharingService</members>
+        <members>RecruitingSharingServiceTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>InterviewTrigger</members>
+        <members>InterviewerAssignmentTrigger</members>
+        <members>JobApplicationTrigger</members>
+        <members>JobPostingTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Recruiting_Confidential_Compensation</members>
+        <members>Recruiting_Hiring_Manager_Access</members>
+        <members>Recruiting_Interviewer_Access</members>
+        <members>Recruiting_Recruiter_Access</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Portal Profile</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Job_Posting__c</members>
+        <name>SharingRules</name>
+    </types>
+    <version>61.0</version>
+</Package>

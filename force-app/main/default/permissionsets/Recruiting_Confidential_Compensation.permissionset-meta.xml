@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Read confidential compensation and hiring-manager fields on accessible job postings.</description>
+    <label>Recruiting Confidential Compensation</label>
+    <fieldPermissions><editable>false</editable><field>Job_Posting__c.Target_Salary_Min__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Job_Posting__c.Target_Salary_Max__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Job_Posting__c.Hiring_Manager__c</field><readable>true</readable></fieldPermissions>
+</PermissionSet>

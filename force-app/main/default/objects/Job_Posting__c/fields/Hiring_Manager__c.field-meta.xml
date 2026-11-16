@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hiring_Manager__c</fullName>
+    <label>Hiring Manager</label>
+    <type>Lookup</type>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Hiring Manager Job Postings</relationshipLabel>
+    <relationshipName>Hiring_Manager_Job_Postings</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+</CustomField>

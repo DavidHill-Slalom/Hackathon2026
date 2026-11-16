@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interview__c</fullName>
+    <label>Interview</label>
+    <type>Lookup</type>
+    <referenceTo>Interview__c</referenceTo>
+    <relationshipLabel>Interviewer Assignments</relationshipLabel>
+    <relationshipName>Interviewer_Assignments</relationshipName>
+    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
+</CustomField>

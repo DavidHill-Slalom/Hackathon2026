@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <accessLevel>Read</accessLevel>
+        <criteriaItems>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Published</value>
+        </criteriaItems>
+        <fullName>Portal_Published_Job_Postings</fullName>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+        <label>Portal Published Job Postings</label>
+        <sharedTo>
+            <guestUser>Portal</guestUser>
+        </sharedTo>
+    </sharingGuestRules>
+</SharingRules>
